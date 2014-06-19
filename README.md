@@ -2,27 +2,31 @@ Alfred Workflows
 ---
 
 > This repo contains a collection of [Alfred](http://www.alfredapp.com/) workflow scripts written in python.
+>
 > _Note: This requires Alfred Powerpack_
 
 ## Workflows
 - [Open GitHub Repo](#open-github-repo)
 
 ## Open GitHub Repo
-This workflow parses the query and matches the search terms (whitespace delimited) against a list of GitHub repos and a
-list of GitHub users, and the matching results are returned to Alfred. Selecting one of the results will open that repo
+This workflow parses the query, matches the search terms (whitespace delimited) against a list of GitHub repos and a
+list of GitHub users, and returns the matching results to Alfred. Selecting one of the results will open that repo
 in the browser.
 
-#### Setup
-- Open Alfred > Workflows
-- Add a new workflow
-  - Add a "Script Filter" input
-    ![open github repo script filter configuration](images/open-github-repo/script-filter-config.png)
-  - _Be sure to drag the GitHub icon from the icons/ directory to this script filter input_
-  - Add a "Run Script" action
-    ![open github repo run script action configuration](images/open-github-repo/run-script-config.png)
-  - Link the input to the action
-    ![open github repo workflow](images/open-github-repo/link-workflow.png)
-- Update the JSON data files ([data/git_repos.json](data/git_repos.json), [data/git_users.json](data/git_users.json))
+### Demo
+![open github repo workflow demo](http://recordit.co/2Nq346nean.gif)
+
+### Setup
+1. Open Alfred > Workflows
+1. Add a new workflow
+1. Add a "Script Filter" input
+  ![open github repo script filter configuration](images/open-github-repo/script-filter-config.png)
+1. _Be sure to drag the GitHub icon from the icons/ directory to this script filter input_
+1. Add a "Run Script" action
+  ![open github repo run script action configuration](images/open-github-repo/run-script-config.png)
+1. Link the input to the action
+  ![open github repo workflow](images/open-github-repo/link-workflow.png)
+1. Update the JSON data files ([data/git_repos.json](data/git_repos.json), [data/git_users.json](data/git_users.json))
 for your use
 
 ## Thanks
