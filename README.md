@@ -2,11 +2,14 @@ Alfred Workflows
 ---
 
 > This repo contains a collection of [Alfred](http://www.alfredapp.com/) workflow scripts written in python.
->
+
 > _Note: This requires Alfred Powerpack_
 
 ## Workflows
 - [Open GitHub Repo](#open-github-repo)
+
+*To use these workflows, fork and clone this repo. Then when setting up a workflow you can point to the python scripts
+in your repo and update the data files for your usage.*
 
 ## Open GitHub Repo
 This workflow parses the query, matches the search terms (whitespace delimited) against a list of GitHub repos and a
