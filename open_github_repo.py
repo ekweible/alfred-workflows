@@ -8,14 +8,15 @@ import alfred
 
 
 # paths
-DATA_PATH = '/Users/evanweible/dev/ekweible/alfred-workflows/data'
+ROOT_PATH = os.path.dirname(os.path.realpath(__file__))
+DATA_PATH = os.path.join(ROOT_PATH, 'data')
 
 # workflow info
 WORKFLOW_SUBTITLE = 'Open GitHub Repo'
 WORKFLOW_UID = 'open-github-repo-workflow'
 
 # icons
-GITHUB_ICON = '/Users/evanweible/dev/ekweible/alfred-workflows/icons/GitHub-Mark-120px-plus.png'
+GITHUB_ICON = os.path.join(ROOT_PATH, 'icons/GitHub-Mark-120px-plus.png')
 
 # regex patterns
 SEARCH_REGEX = '.*%s.*'
