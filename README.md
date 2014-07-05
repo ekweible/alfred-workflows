@@ -3,7 +3,7 @@ Alfred Workflows
 
 > This repo contains a collection of [Alfred](http://www.alfredapp.com/) workflow scripts written in python.
 
-> _Note: This requires Alfred Powerpack_
+> _Note: This requires the Alfred Powerpack_.
 
 ## Workflows
 - [Open GitHub Repo](#open-github-repo)
@@ -29,8 +29,9 @@ in the browser.
   ![open github repo run script action configuration](images/open-github-repo/run-script-config.png)
 1. Link the input to the action
   ![open github repo workflow](images/open-github-repo/link-workflow.png)
-1. Update the JSON data files ([data/git_repos.json](data/git_repos.json), [data/git_users.json](data/git_users.json))
-for your use
+1. Create or symlink `data/git_repos.json` and `data/git_users.json` using
+[data/git_repos.example.json](data/git_repos.example.json) and [data/git_users.example.json](git_users.example.json)
+as examples.
 
 ## Thanks
 Shout out to the following people and tools:
